@@ -1,0 +1,58 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin: 0;
+}
+
+.list{
+  
+  display: inline-block;
+  
+
+}
+li{
+  list-style: none;
+  display: inline-block;
+  width: 75px;
+  height: 50px;
+  background-color: rgb(18, 247, 113);
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  position: relative;
+}
+.sublist{
+  padding: 0px;
+  position: absolute;
+  display: none;
+
+
+}
+.subli{
+  display: block;
+  margin-top: 5px;
+}
+.sublink{
+  text-decoration: none;
+  color: white;
+}
+.link{
+  text-decoration: none;
+  color: white;
+}
+.li:hover .sublist{
+  display: block;
+  
+}
+.li:hover{
+  background-color: grey;
+}
+.subli:hover {
+  background-color: grey;
+  
+}
+.sublink:hover{
+  color: greenyellow;
+}
+
