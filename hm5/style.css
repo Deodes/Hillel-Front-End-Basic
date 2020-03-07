@@ -1,0 +1,58 @@
+body{
+    background-image: url(images/fon.jpg) ;
+    background-repeat: no-repeat;
+    background-position:  top center;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: blueviolet;
+
+}
+
+.container__spisok{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-right:20px;
+    margin-top:50px;
+    font-size: 20px;
+    font-family: "Franklin Gothic";
+    font-weight: 500;
+    opacity: 0.87;
+}
+
+a{
+    text-decoration: none;
+    color: #b1bbcb !important;
+}
+main{
+    max-width: 580px;
+}
+h1{
+    color:white;
+    margin-left:95px;
+    margin-top: 70px;
+    font-family: "Franklin Gothic";
+    font-size: 25px;
+    opacity: 0.87;
+    font-weight: 500;
+}
+p{
+
+    color:white;
+    margin-left:95px;
+    font-family: "Franklin Gothic";
+    font-size: 14px;
+    opacity: 0.87;
+    font-weight: 500;
+}
+h3{
+    margin-top: 170px;
+    margin-left: 54px;
+    font-size: 13px;
+    font-family: "Franklin Gothic";
+    font-weight: 500;
+    opacity: 0.87;
+    color: #b1bbcb
+}
